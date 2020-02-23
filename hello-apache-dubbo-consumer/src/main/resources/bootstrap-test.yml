@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: dubbo-consumer-test
+  cloud:
+    nacos:
+      config:
+        server-addr: 172.16.253.141:8848
+        file-extension: yaml
